@@ -1,0 +1,2 @@
+const [a,b,c] = [5,6,7];
+console.time('Time')||void setTimeout(()=>void setTimeout(()=>void setTimeout(()=>console.timeEnd('Time'),a*1000),b*1000),c*1000)
